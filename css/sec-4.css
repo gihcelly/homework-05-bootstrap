@@ -1,0 +1,72 @@
+:root {
+  --s4-orange: #ffdd99;
+  --s4-orange-50: #ebcb8d;
+  --s4-green: #17C2A4;
+  --s4-green-50: #1ca88f;
+
+}
+
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.section-4 {
+  background-color: var(--s4-orange);
+  padding: 107px 0;
+}
+
+.section-4 .our-portfolio h3 {
+  color: #393939;
+  font-size: 2.5rem;
+}
+
+.section-4 .our-portfolio p {
+  max-width: 498px;
+  margin: 0 auto;
+  padding: 18.87px 0 37.13px 0;
+}
+
+.section-4 .portfolio-line {
+  background: var(--s4-orange-50);
+  width: 87px;
+  height: 4px;
+  margin: 0 auto;
+}
+
+.section-4 .btn-portfolio {
+  background-color: var(--s4-orange-50);
+  width: 90px;
+  height: 38px;
+}
+
+.section-4 .card-portfolio {
+    padding: 0 125px;
+}
+
+.btn-loadmore-portfolio {
+    width: fit-content;
+    padding: 16px 40px;
+    border: none;
+    background-color: var(--s4-green);
+    border-bottom: 4px solid var(--s4-green-50);
+}
+
+@media (max-width: 768px) {
+  .section-4 .our-portfolio h3 {
+    font-size: 2rem;
+  }
+
+  .section-4 .our-portfolio p {
+    padding: 18.87px 55px 37.13px 55px;
+  }
+
+  .section-4 .btn-portfolio {
+    width: 70.44px;
+    height: 31.87px;
+    font-size: 0.75rem;
+  }
+
+  .section-4 .card-portfolio {
+    padding: 0 25px;
+}
+}
