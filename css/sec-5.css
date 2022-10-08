@@ -1,0 +1,20 @@
+:root {
+    --s5-pink: #D74680;
+    --s5-pink-50: #b73b6d;
+}
+
+.section-5 {
+    background-color: var(--s5-pink);
+    padding: 60px 0 10px 0;
+}
+
+.text-people-say h3 {
+    font-size: 2.5rem;
+}
+
+.section-5 .text-people-say .portfolio-line {
+    background: var(--s5-pink-50);
+    width: 87px;
+    height: 4px;
+    margin: 0 auto;
+  }

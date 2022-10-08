@@ -1,0 +1,49 @@
+:root {
+    --s6-blue: #3C5499;
+    --s6-blue-50: #273a71;
+    --s6-aqua: #30bae7;
+    --s6-aqua-50: #299ec4;
+}
+
+.section-6 {
+    background-color: var(--s6-blue);
+    padding: 60px 0;
+}
+
+.section-6 .portfolio-line {
+    background: var(--s6-blue-50);
+    width: 87px;
+    height: 4px;
+    margin: 0 auto;
+  }
+
+  .section-6 .input-contact {
+    background-color: var(--s6-blue-50);
+  }
+
+  .section-6 .input-contact::placeholder {
+    color: white;
+  }
+
+  .section-6 .input-textarea {
+    min-height: 200px;
+  }
+
+  .section-6 .btn-sendmessage {
+    width: fit-content;
+    padding: 16px 40px;
+    border: none;
+    background-color: var(--s6-aqua);
+    border-bottom: 4px solid var(--s6-aqua-50);
+    margin: 0 auto;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--s6-blue-50);
+}
+
+footer .footer-sociais div {
+    display: flex;
+    justify-content: center;
+}
