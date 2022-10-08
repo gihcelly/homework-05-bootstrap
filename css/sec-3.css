@@ -1,0 +1,77 @@
+:root {
+    --s3-gelo: #BDD1DF;
+    --s3-blue: #30BAE7;
+}
+
+.section-3 {
+    padding: 107px 0;
+}
+
+.section-3 h3 {
+    font-size: 40px;
+}
+
+.section-3 .our-portfolio p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.section-3 .portfolio-line {
+    background: var(--s3-gelo);
+    width: 87px;
+    height: 4px;
+    margin: 0 auto;
+  }
+
+.section-3 .text-blue {
+    color: var(--s3-blue);
+}
+
+.section-3 i {
+    display: flex ;
+    width: 32px;
+    height: 32px;
+    background-color: var(--s3-gelo);
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    margin-top: 30px;
+}
+
+.section-3 .container-skills {
+    margin-top: 107px;
+}
+
+.container-percent {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.container-percent small {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.125rem;
+}
+
+.container-percen img {
+    width: 160px;
+    height: 160px;
+}
+
+.text-skills {
+    padding: 0 200px;
+}
+
+.text-grafico {
+    font-size: 24px;
+}
+
+

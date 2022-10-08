@@ -1,0 +1,43 @@
+:root {
+    --s2-green: #17C2A4;
+    --s2-green-50: #14A58B;
+
+}
+
+.section-2 {
+    background-color: var(--s2-green);
+    padding: 106px 0;
+    color: white;
+}
+
+.section-2 h3 {
+    color: white;
+    font-size: 40px;
+}
+
+.section-2 .text-services {
+    font-size: 18px;
+    color: white;
+    padding: 0 200px;
+}
+
+.section-2 .portfolio-line {
+    background: var(--s2-green-50);
+    width: 87px;
+    height: 4px;
+    margin: 0 auto;
+  }
+
+.section-2 .service-card img{
+    width: 120px;
+    height: 124px;
+}
+
+.section-2 .service-card p {
+    font-size: 24px;
+}
+
+.section-2 .service-card small {
+    font-size: 16px;
+    color: white;
+}

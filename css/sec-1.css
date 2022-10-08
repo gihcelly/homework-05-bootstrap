@@ -1,0 +1,42 @@
+:root {
+    --s1-purple:#643A79;
+    --s1-purple-50:#87509C;
+    --s1-orange:#EB7D4B;
+    --s1-orange-50:#CE5E36;
+    --s1-white: #FFFFFF;
+}
+
+
+header {
+    background-color: var(--s1-purple-50);  
+}
+
+header .navbar {
+    background-color: var(--s1-purple-50);
+}
+
+.nav {
+    gap: 20px; 
+}
+
+.section-1 {
+    padding: 140px 266px 140px 266px;
+    background-color: var(--s1-purple-50);
+    font-size: 42px;
+    text-align: center;
+}
+
+.section-1 .btn-loadmore-portfolio {
+    width: fit-content;
+    padding: 16px 40px;
+    border: none;
+    background-color: var(--s1-orange);
+    border-bottom: 4px solid var(--s1-orange-50);
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+
+
+
+
